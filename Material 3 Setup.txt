@@ -1,0 +1,110 @@
+Fast Add Material 3 Latest Library, Sketchware Pro Default Library is old.
+
+
+values/colors.xml
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+<color name="colorPrimary">#6750A4</color>
+<color name="colorAccent">#2196F3</color>
+<color name="colorPrimaryDark">#1976D2</color>
+<color name="colorControlHighlight">#2196F3</color>
+<color name="colorControlNormal">#2196F3</color>
+<color name="colorOnPrimary">#FFFFFF</color>
+<color name="colorPrimaryContainer">#BB86FC</color>
+<color name="colorOnPrimaryContainer">#000000</color>
+<color name="colorSecondary">#03DAC6</color>
+<color name="colorOnSecondary">#000000</color>
+<color name="colorTertiary">#FF80AB</color>
+</resources>
+
+values/styles.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base app theme-->
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorOnPrimary</item>
+    </style>
+    <!--Fullscreen theme-->
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--App bar overlay-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar">
+    </style>
+    <!--Popup overlay-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Light">
+    </style>
+    <!--Debug activity theme-->
+    <style name="AppTheme.DebugActivity" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ThemeOverlay.Material3.ActionBar</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
+
+values/themes.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+</resources>
+
+values-night/colors.xml
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+<color name="colorPrimary">#D0BCFF</color>
+<color name="colorOnPrimary">#000000</color>
+<color name="colorPrimaryContainer">#3700B3</color>
+<color name="colorOnPrimaryContainer">#FFFFFF</color>
+<color name="colorSecondary">#03DAC6</color>
+<color name="colorOnSecondary">#000000</color>
+<color name="colorTertiary">#FF80AB</color>
+<color name="colorPrimaryContainerDark">#6200EE</color>
+<color name="colorOnPrimaryContainerDark">#FFFFFF</color>
+<color name="colorSecondaryDark">#03DAC6</color>
+<color name="colorOnSecondaryDark">#000000</color>
+<color name="colorTertiaryDark">#FF80AB</color>
+<color name="colorOnPrimaryDark">#000000</color>
+</resources>
+
+values-night/themes.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryDark</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainerDark</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainerDark</item>
+        <item name="colorSecondary">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryDark</item>
+        <item name="colorTertiary">@color/colorTertiaryDark</item>
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorOnPrimary</item>
+    </style>
+</resources>
